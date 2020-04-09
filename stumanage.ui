@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>StuManage</class>
+ <widget class="QWidget" name="StuManage">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1071</width>
+    <height>670</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QGroupBox" name="groupBox_3">
+   <property name="geometry">
+    <rect>
+     <x>670</x>
+     <y>310</y>
+     <width>391</width>
+     <height>351</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>学生操作</string>
+   </property>
+   <layout class="QGridLayout" name="gridLayout_2">
+    <item row="7" column="0">
+     <widget class="QLabel" name="label_10">
+      <property name="text">
+       <string>联系方式:</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="0">
+     <widget class="QLabel" name="label">
+      <property name="text">
+       <string>类    型：</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="0">
+     <widget class="QLabel" name="label_4">
+      <property name="text">
+       <string>性    别：</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="QLabel" name="label_2">
+      <property name="text">
+       <string>姓    名：</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="0">
+     <widget class="QLabel" name="label_3">
+      <property name="text">
+       <string>学    号：</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="0">
+     <widget class="QLabel" name="label_6">
+      <property name="text">
+       <string>专    业：</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="0">
+     <widget class="QLabel" name="label_5">
+      <property name="text">
+       <string>年    龄：</string>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="0">
+     <widget class="QLabel" name="label_7">
+      <property name="text">
+       <string>班    级:</string>
+      </property>
+     </widget>
+    </item>
+    <item row="8" column="2">
+     <widget class="QLineEdit" name="lineEdit_Pwd"/>
+    </item>
+    <item row="8" column="0">
+     <widget class="QLabel" name="label_11">
+      <property name="text">
+       <string>登录密码:</string>
+      </property>
+     </widget>
+    </item>
+    <item row="8" column="3">
+     <widget class="QLabel" name="label_12">
+      <property name="text">
+       <string>默认密码123456</string>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="2" colspan="2">
+     <widget class="QLineEdit" name="lineEdit_ContactInfo"/>
+    </item>
+    <item row="9" column="0" colspan="4">
+     <widget class="QPushButton" name="btn_Act">
+      <property name="text">
+       <string>执行操作</string>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="2" colspan="2">
+     <widget class="QLineEdit" name="lineEdit_Class"/>
+    </item>
+    <item row="5" column="2" colspan="2">
+     <widget class="QLineEdit" name="lineEdit_Major"/>
+    </item>
+    <item row="4" column="2" colspan="2">
+     <widget class="QLineEdit" name="lineEdit_Age"/>
+    </item>
+    <item row="3" column="2" colspan="2">
+     <widget class="QLineEdit" name="lineEdit_Sex"/>
+    </item>
+    <item row="2" column="2" colspan="2">
+     <widget class="QLineEdit" name="lineEdit_No"/>
+    </item>
+    <item row="1" column="2" colspan="2">
+     <widget class="QLineEdit" name="lineEdit_Name"/>
+    </item>
+    <item row="0" column="2" colspan="2">
+     <widget class="QComboBox" name="comboBox_ActType">
+      <item>
+       <property name="text">
+        <string>添加</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>修改</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>删除</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QGroupBox" name="groupBox_1">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>651</width>
+     <height>651</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>学生查询</string>
+   </property>
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <widget class="QLabel" name="label_8">
+      <property name="text">
+       <string>搜索：</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QComboBox" name="comboBox_SearchType">
+      <property name="minimumSize">
+       <size>
+        <width>90</width>
+        <height>21</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>130</width>
+        <height>16777215</height>
+       </size>
+      </property>
+      <item>
+       <property name="text">
+        <string>学生姓名</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>学生学号</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item row="0" column="2">
+     <widget class="QLineEdit" name="lineEdit_Search"/>
+    </item>
+    <item row="0" column="3">
+     <widget class="QPushButton" name="btn_Fresh">
+      <property name="minimumSize">
+       <size>
+        <width>95</width>
+        <height>28</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>刷新学生信息</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0" colspan="4">
+     <widget class="QTableView" name="tableView_Student"/>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QGroupBox" name="groupBox_2">
+   <property name="geometry">
+    <rect>
+     <x>670</x>
+     <y>10</y>
+     <width>391</width>
+     <height>291</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>该学生选修课程信息</string>
+   </property>
+   <layout class="QGridLayout" name="gridLayout_3">
+    <item row="0" column="0">
+     <widget class="QTableView" name="tableView_SelectedCourse"/>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

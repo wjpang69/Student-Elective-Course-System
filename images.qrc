@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>images/CorseManage.png</file>
+        <file>images/Exit.png</file>
+        <file>images/Home.png</file>
+        <file>images/Statistics.png</file>
+        <file>images/StuManage.png</file>
+    </qresource>
+</RCC>

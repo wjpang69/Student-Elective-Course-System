@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>CourseManage</class>
+ <widget class="QWidget" name="CourseManage">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1072</width>
+    <height>450</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QGroupBox" name="groupBox">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>651</width>
+     <height>431</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>课程查询</string>
+   </property>
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <widget class="QLabel" name="label_8">
+      <property name="text">
+       <string>搜索：</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QComboBox" name="comboBox_SearchType">
+      <item>
+       <property name="text">
+        <string>课程名称</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>课程代码</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item row="0" column="2">
+     <widget class="QLineEdit" name="lineEdit_Search"/>
+    </item>
+    <item row="0" column="3">
+     <widget class="QLabel" name="label_12">
+      <property name="text">
+       <string> 排序：</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="4">
+     <widget class="QComboBox" name="comboBox_SortType">
+      <property name="minimumSize">
+       <size>
+        <width>85</width>
+        <height>0</height>
+       </size>
+      </property>
+      <item>
+       <property name="text">
+        <string>选修人数</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>课程代码</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item row="0" column="5">
+     <widget class="QCheckBox" name="checkBox_SortMethod">
+      <property name="text">
+       <string>降序</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="6">
+     <widget class="QPushButton" name="btn_Sort">
+      <property name="minimumSize">
+       <size>
+        <width>40</width>
+        <height>0</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>排序</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="7">
+     <widget class="QPushButton" name="btn_Fresh">
+      <property name="minimumSize">
+       <size>
+        <width>95</width>
+        <height>28</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>刷新课程信息</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0" colspan="8">
+     <widget class="QTableView" name="tableView_Course"/>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QGroupBox" name="groupBox_2">
+   <property name="geometry">
+    <rect>
+     <x>670</x>
+     <y>10</y>
+     <width>391</width>
+     <height>430</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>课程操作</string>
+   </property>
+   <layout class="QGridLayout" name="gridLayout_2">
+    <item row="0" column="0">
+     <widget class="QLabel" name="label">
+      <property name="text">
+       <string>类    型：</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QComboBox" name="comboBox_Type">
+      <item>
+       <property name="text">
+        <string>添加</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>修改</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>删除</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="QLabel" name="label_2">
+      <property name="text">
+       <string>课程代码：</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QLineEdit" name="lineEdit_No"/>
+    </item>
+    <item row="2" column="0">
+     <widget class="QLabel" name="label_3">
+      <property name="text">
+       <string>课程名称：</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="1">
+     <widget class="QLineEdit" name="lineEdit_Name"/>
+    </item>
+    <item row="3" column="0">
+     <widget class="QLabel" name="label_4">
+      <property name="text">
+       <string>课程性质：</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="1">
+     <widget class="QLineEdit" name="lineEdit_Nature"/>
+    </item>
+    <item row="4" column="0">
+     <widget class="QLabel" name="label_5">
+      <property name="text">
+       <string>总 学 时：</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="1">
+     <widget class="QLineEdit" name="lineEdit_Period"/>
+    </item>
+    <item row="5" column="0">
+     <widget class="QLabel" name="label_6">
+      <property name="text">
+       <string>学    分：</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="1">
+     <widget class="QLineEdit" name="lineEdit_Credit"/>
+    </item>
+    <item row="6" column="0">
+     <widget class="QLabel" name="label_7">
+      <property name="text">
+       <string>开课学期:</string>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="1">
+     <widget class="QLineEdit" name="lineEdit_Term"/>
+    </item>
+    <item row="7" column="0" colspan="2">
+     <widget class="QPushButton" name="pushButton_Act">
+      <property name="text">
+       <string>执行操作</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
